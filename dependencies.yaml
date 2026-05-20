@@ -18,10 +18,14 @@
 # local clone. These can be filled to set a different source if desired.
 
 lfric_core:
-  - source: git@github.com:MetOffice/lfric_core.git
+    source:
+    ref:
+
+lfric_apps:
+  - source: git@github.com:MetOffice/lfric_apps.git
     ref: 2026.03.2
-  - source: git@github.com:Adrian-Lock/lfric_core.git
-    ref: tag3.1_init_pert_nml
+  - source: git@github.com:Adrian-Lock/lfric_apps.git
+    ref: tag3.1_apps_init_pert_nml
 
 SimSys_Scripts:
     source: git@github.com:MetOffice/SimSys_Scripts.git
