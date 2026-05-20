@@ -22,9 +22,9 @@ lfric_core:
     ref:
 
 lfric_apps:
-  - source: git@github.com:MetOffice/lfric_apps.git
+    source: git@github.com:MetOffice/lfric_apps.git
     ref: 2026.03.2
-  - source: git@github.com:Adrian-Lock/lfric_apps.git
+    source: git@github.com:Adrian-Lock/lfric_apps.git
     ref: tag3.1_apps_init_pert_nml
 
 SimSys_Scripts:
